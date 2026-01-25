@@ -18,7 +18,7 @@ const status = execSync('git status --porcelain src/content/blog', {
 if (status.trim()) {
   execSync('git add src/content/blog', { stdio: 'inherit' })
   try {
-    execSync(`git commit -m "write:(blog) updated blogs"`, {
+    execSync(`git commit -m "write(blog): updated blogs"`, {
       stdio: 'inherit',
     })
     log.success('committed changes: updated blogs')
