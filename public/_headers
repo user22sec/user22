@@ -1,0 +1,8 @@
+# Cloudflare Pages headers (https://developers.cloudflare.com/pages/configuration/headers/)
+
+# giscus loads custom theme CSS by fetching it from inside the https://giscus.app
+# iframe. That's a cross-origin request, so without CORS the browser drops the
+# response and the theme silently falls back to default. Allow giscus to read these.
+/giscus-*.css
+  Access-Control-Allow-Origin: https://giscus.app
+  Cache-Control: public, max-age=300, must-revalidate
