@@ -1,11 +1,11 @@
 import type { IconEntry, IconMap, SocialLink, Site, Person } from '@/types'
 
 export const SITE: Site = {
-  title: 'infinull',
+  title: 'Sudar Blogger',
   description:
-    'Portfolio and Blog of Sedhu Madhav (aka infinull)',
-  author: 'infinull',
-  locale: 'en-US',
+    'Catatan Harian Blog Kang Sudar',
+  author: 'sudarmanto',
+  locale: 'id-ID',
   featuredPostCount: 2,
   featuredProjectCount: 3,
   postsPerPage: 3,
@@ -15,11 +15,7 @@ export const SITE: Site = {
 }
 
 export const NAV_LINKS: SocialLink[] = [
-  {
-    href: '/search',
-    label: '',
-    icon: 'lucide:search',
-  },
+  
   {
     href: '/about',
     label: 'about',
@@ -115,7 +111,7 @@ export const getIconColor = (entry: IconEntry | undefined): string | undefined =
   typeof entry === 'object' && entry ? entry.color : undefined
 
 export const ME: Person = {
-  name: 'Sedhu Madhav',
+  name: 'Sudar Blogger',
   birthDate: new Date('2002-12-12'),
   age: new Date().getFullYear() - 2002
 }
