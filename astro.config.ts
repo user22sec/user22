@@ -92,7 +92,19 @@ export default defineConfig({
   devToolbar: {
     enabled: false,
   },
-
+redirects: {
+    // v1.0.0 -> v3.0.0
+    '/blog/gunung-penanggungan':
+      '/blog/pindah-ke-ssg',
+    '/blog/bagian-dari-sh-terate/':
+      '/blog/pindah-ke-ssg',
+    '/blog/pantai-dermaga':
+      '/blog/pindah-ke-ssg',
+    '/blog/tuban/makam-aljabbar-tuban:
+      '/blog/pindah-ke-ssg',
+    '/blog/masjid-namira':
+      '/blog/pindah-ke-ssg',
+  
   markdown: {
     syntaxHighlight: false,
     rehypePlugins: [
