@@ -119,11 +119,5 @@ export default defineConfig({
   },
 
   adapter: cloudflare(),
-}
-  export default defineConfig({
-  redirects: {
-    // Basic redirect (Defaults to 301 permanent status code in SSR)
-    '/post/penanggungan-mojokerto': '/blog/penanggungan', 
-    }
 })
 
