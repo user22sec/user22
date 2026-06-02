@@ -1,15 +1,15 @@
 import type { IconEntry, IconMap, SocialLink, Site, Person } from '@/types'
 
 export const SITE: Site = {
-  title: 'Sudar Blogger',
+  title: 'Kang Sudar',
   description:
     'Catatan Harian Blog Kang Sudar',
   author: 'sudarmanto',
   locale: 'id-ID',
-  featuredPostCount: 2,
+  featuredPostCount: 3,
   featuredProjectCount: 3,
-  postsPerPage: 3,
-  projectsPerPage: 3,
+  postsPerPage: 5,
+  projectsPerPage: 2,
   defaultPostBanner: '/static/common/default-post-banner-1200x630.jpg',
   defaultProjectBanner: '/static/common/default-project-banner-1200x630.jpg'
 }
@@ -45,7 +45,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
     label: 'LinkedIn',
   },
   {
-    href: 'https://github.com/theinfinull',
+    href: 'https://github.com/user22sec',
     label: 'GitHub',
   },
   {
@@ -53,7 +53,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
     label: 'Twitter',
   },
   {
-    href: 'https://instagram.com/sedhu_madhav_',
+    href: 'https://instagram.com/20.22sh',
     label: 'Instagram',
   },
   {
